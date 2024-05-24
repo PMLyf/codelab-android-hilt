@@ -58,7 +58,7 @@ class LogsFragment : Fragment() {
         }
     }
 
-    override fun onAttach(context: Context) {
+/*    override fun onAttach(context: Context) {
         super.onAttach(context)
 
         populateFields(context)
@@ -68,7 +68,7 @@ class LogsFragment : Fragment() {
         logger = (context.applicationContext as LogApplication).serviceLocator.loggerLocalDataSource
         dateFormatter =
             (context.applicationContext as LogApplication).serviceLocator.provideDateFormatter()
-    }
+    }*/
 
     override fun onResume() {
         super.onResume()
